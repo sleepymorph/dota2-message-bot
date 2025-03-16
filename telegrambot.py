@@ -34,7 +34,7 @@ def find_button_by_image(template_path, threshold=0.65):
     return False, max_val
 
 if __name__ == "__main__":
-    TEMPLATE_PATH = "C:/dota 2 finder/button_accept.png"  # path to png image
+    TEMPLATE_PATH = "your path to image"  # path to png image
     while True:
         found, confidence = find_button_by_image(TEMPLATE_PATH)
         if found:
