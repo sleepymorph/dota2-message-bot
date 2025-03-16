@@ -1,0 +1,1 @@
+start /B pythonw "C:\dota 2 finder\telegrambot.py"
