@@ -5,7 +5,7 @@ import requests
 import time
 
 # Settings for the Telegram bot
-BOT_TOKEN = "paste your bot here"
+BOT_TOKEN = "paste your bot id here"
 CHAT_ID = "paste your id here"
 
 def send_telegram_message(message):
